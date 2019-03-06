@@ -1,0 +1,104 @@
+object FormAbout: TFormAbout
+  Left = 583
+  Height = 347
+  Top = 253
+  Width = 492
+  Caption = 'About'
+  ClientHeight = 347
+  ClientWidth = 492
+  OnCreate = FormCreate
+  Position = poMainFormCenter
+  LCLVersion = '2.0.0.3'
+  object GroupBox1: TGroupBox
+    Left = 0
+    Height = 347
+    Top = 0
+    Width = 492
+    Align = alClient
+    ClientHeight = 345
+    ClientWidth = 490
+    TabOrder = 0
+    object Label7: TLabel
+      Left = 215
+      Height = 21
+      Top = 40
+      Width = 62
+      Anchors = [akTop, akRight]
+      Caption = 'PERmit'
+      Font.Height = -17
+      Font.Name = 'Sans'
+      ParentColor = False
+      ParentFont = False
+      OnClick = Label7Click
+    end
+    object Label9: TLabel
+      Left = 103
+      Height = 21
+      Top = 64
+      Width = 286
+      Anchors = [akTop, akRight]
+      Caption = 'نرم افزار آموزش تعاملی دستور chmod'
+      Font.Height = -17
+      Font.Name = 'Sans'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label8: TLabel
+      Left = 199
+      Height = 21
+      Top = 96
+      Width = 94
+      Anchors = [akTop, akRight]
+      Caption = 'نسخه: 1.0.0'
+      Font.Height = -17
+      Font.Name = 'Sans'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label10: TLabel
+      Left = 90
+      Height = 21
+      Top = 152
+      Width = 312
+      Anchors = [akTop, akRight]
+      Caption = 'توسعه دهنده: محمد صادق عیدان پور صالحی'
+      Font.Height = -17
+      Font.Name = 'Sans'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label11: TLabel
+      Left = 80
+      Height = 21
+      Top = 200
+      Width = 333
+      Anchors = [akTop, akRight]
+      Caption = 'هنرآموز هنرستان علامه جعفری شهرستان آبادان'
+      Font.Height = -17
+      Font.Name = 'Sans'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label12: TLabel
+      Left = 111
+      Height = 21
+      Top = 240
+      Width = 270
+      Anchors = [akTop, akRight]
+      Caption = 'Email: SadeqSalehi@gmail.com'
+      Font.Height = -17
+      Font.Name = 'Sans'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Button1: TButton
+      Left = 171
+      Height = 25
+      Top = 288
+      Width = 151
+      Caption = 'بسیار خوب'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+  end
+end
